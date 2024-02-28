@@ -6,7 +6,12 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('seconds').textContent = '00';
 
     const startTimer = (durationInSeconds) => {
-        let hours, minutes, seconds;
+        let hours = 0;
+        let minutes = 0;
+        let seconds = 0;
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
         info.textContent = '';
 
         const updateDisplay = () => {
