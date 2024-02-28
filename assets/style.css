@@ -57,6 +57,7 @@ header {
 }
 
 footer {
+    margin-top: 50px;
     text-align: center;
     background-color: #ff3333;
     color: #fff;
@@ -65,4 +66,9 @@ footer {
     width: 100%;
     position: fixed;
     font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
