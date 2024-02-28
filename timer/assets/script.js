@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (--durationInSeconds < 0) {
                 info.textContent = `Timer ended at: ${new Date().toLocaleDateString()} ${new Date().getHours()}:${new Date().getMinutes()}:${new Date().getSeconds()}`;
                 working = false;
+                clearInterval(timerInterval);
             }
         };
 
