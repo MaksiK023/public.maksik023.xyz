@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Kalkulator</title>
+    <link rel='icon' href='./assets/icon.png' />
+    <link rel='stylesheet' href='./assets/style.css' />
+    <script src='./assets/script.js' defer></script>
+</head>
+
+<body>
+    <div id='calculator'>
+        <input type='text' id='display' disabled>
+        <br>
+        <button class="special" onclick='clearDisplay()'>C</button>
+        <button class="special" onclick='deleteLast()'>DEL</button>
+        <button class="special" onclick='calculatePercentage()'>%</button>
+        <button class="operator" onclick="appendOperator('/')">/</button>
+        <button onclick="appendDigit('7')">7</button>
+        <button onclick="appendDigit('8')">8</button>
+        <button onclick="appendDigit('9')">9</button>
+        <button class="operator" onclick="appendOperator('*')">*</button>
+        <button onclick="appendDigit('4')">4</button>
+        <button onclick="appendDigit('5')">5</button>
+        <button onclick="appendDigit('6')">6</button>
+        <button class="operator" onclick="appendOperator('-')">-</button>
+        <button onclick="appendDigit('1')">1</button>
+        <button onclick="appendDigit('2')">2</button>
+        <button onclick="appendDigit('3')">3</button>
+        <button class="operator" onclick="appendOperator('+')">+</button>
+        <button class="double" onclick="appendDigit('0')">0</button>
+        <button onclick="appendDot()">.</button>
+        <button class="operator" onclick="calculateResult()">=</button>
+    </div>
+</body>
+
+</html>
