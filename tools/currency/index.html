@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Currency Converter</title>
+    <link rel='icon' href='./assets/icon.png' />
+    <link rel='stylesheet' href='./assets/style.css' />
+    <script src='./assets/script.js' defer></script>
+</head>
+
+<body>
+
+    <div id='converter-container'>
+        <h2>Currency Converter</h2>
+        <label for='fromCurrency'>From:</label>
+        <input type='number' id='fromAmount' placeholder='Amount'>
+        <select id='fromCurrency'></select>
+        <br>
+        <label for='toCurrency'>To:</label>
+        <input type='number' id='toAmount' disabled>
+        <select id='toCurrency'></select>
+
+        <div id='result'></div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Hangman Game</title>
+    <link rel='icon' href='./assets/icon.png' />
+    <link rel='stylesheet' href='./assets/style.css' />
+    <script src='./assets/script.js' defer></script>
+</head>
+<body>
+
+<div id='hangman-container'>
+    <h2>Hangman Game</h2>
+    <div id='word-display'></div>
+    <input type='text' id='guess-input' placeholder='Enter a letter'>
+    <button onclick='makeGuess()'>Guess</button>
+    <div id='feedback'></div>
+    <div id='attempts'>Attempts left: <span id='attempts-left'></span></div>
+</div>
+
+</body>
+</html>
