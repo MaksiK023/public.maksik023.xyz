@@ -6,7 +6,7 @@ if (!list.includes(window.location.origin.toLowerCase())) {
 try {
     const copyright = document.getElementById('copyright');
     copyright.innerHTML = '';
-    copyright.innerHTML += `<a href='${window.location.origin}/LICENSE.txt' target='_blank'>CopyRight &copy; ${new Date().getFullYear()} - ${window.location.origin}</a>`;
+    copyright.innerHTML += `<a href='${window.location.origin}/LICENSE.txt' target='_blank'>CopyRight &copy; ${new Date().getFullYear()} - MaksiK023.xyz</a>`;
     copyright.innerHTML += `<link rel='stylesheet' href='${window.location.origin}/assets/copyright.css' />`;
 } catch (e) {
     throw new Error('Error founded, while setting "copyright" element!', e);
