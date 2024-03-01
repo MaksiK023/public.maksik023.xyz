@@ -1,0 +1,20 @@
+footer {
+    text-align: center;
+    background-color: #ff3333;
+    color: #fff;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}

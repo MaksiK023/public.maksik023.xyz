@@ -56,19 +56,3 @@ header {
     text-decoration: none;
     border-radius: 5px;
 }
-
-footer {
-    text-align: center;
-    background-color: #ff3333;
-    color: #fff;
-    bottom: 0;
-    padding: 10px;
-    width: 100%;
-    position: fixed;
-    font-weight: bold;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
