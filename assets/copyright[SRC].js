@@ -1,4 +1,4 @@
-const list = ['public.maksik023.xyz', 'http://localhost:5500', 'http://127.0.0.1:5500'];
+const list = ['https://public.maksik023.xyz', 'http://localhost:5500', 'http://127.0.0.1:5500'];
 if (!list.includes(window.location.origin.toLowerCase())) {
     window.location.href = 'https://public.maksik023.xyz/';
 }
