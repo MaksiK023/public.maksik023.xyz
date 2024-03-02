@@ -31,9 +31,10 @@ function calculateResult() {
 }
 
 function calculatePercentage() {
-    try {
+    return;
+    /* try {
         display.value = eval(display.value) / 100;
     } catch (error) {
         display.value = 'Error';
-    }
+    } */
 }
