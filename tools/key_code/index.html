@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='pl'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Key code list</title>
+    <link rel='icon' href='./assets/icon.png' />
+    <link rel='stylesheet' href='./assets/style.css' />
+</head>
+
+<body>
+    <h1>Key Code</h1>
+    <h3 id='key'>Please press a key!</h3>
+    <script src='../../assets/copyright.js' defer></script>
+    <footer id='copyright'></footer>
+    <script defer>
+        document.addEventListener('keydown', (e) => {
+            const element = document.getElementById('key');
+            let clickedKey;
+            if (e.key.toUpperCase() === ' ') {
+                clickedKey = 'SPACE';
+            } else {
+                clickedKey = e.key.toUpperCase();
+            }
+            element.innerHTML = `Pressed key: <span style="color:#4287f5">${clickedKey}</span> - Key code: <span style="color:#4287f5">${e.keyCode}</span>`;
+        });
+    </script>
+</body>
+
+</html>
