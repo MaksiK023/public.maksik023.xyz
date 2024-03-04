@@ -51,14 +51,3 @@ h3:focus {
     text-decoration: underline;
     color: #4caf50;
 }
-
-footer a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease-in-out;
-}
-
-footer a:hover {
-    color: #ffcc00;
-}
